@@ -1,13 +1,16 @@
-html,body{
+
+*{
+    text-align: center;
     background: #111111;
+    color: white;
 }
 
-#clock, #days, #total {
+#clock, #days, #total, h1 {
     color: white;
   }
 
 .clocks{
-    height: 20rem;
+    height: 15rem;
     background-color: #111111;
 }
 

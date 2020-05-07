@@ -24,7 +24,7 @@ const getRemainingTime = deadline => {
       let hl = t.remainDays * 24;
       let h = parseInt(hl);
       let fhl = d + h;
-      el.innerHTML = `<span style="color: green;"> ${fhl}h  </span> hours left`;
+      el.innerHTML = `<span style="color: green;"> ${fhl}  </span> часов осталось`;
   
       if(t.remainTime <= 1) {
         clearInterval(timerUpdate);
@@ -39,7 +39,7 @@ const getRemainingTime = deadline => {
   
     const timerUpdate = setInterval( () => {
       let t = getRemainingTime(deadline);
-      el.innerHTML = `<span style="color: green;"> ${t.remainDays}</span> days left`;
+      el.innerHTML = `<span style="color: green;"> ${t.remainDays}</span> осталось дней`;
   
       if(t.remainTime <= 1) {
         clearInterval(timerUpdate);
@@ -54,7 +54,7 @@ const getRemainingTime = deadline => {
   
     const timerUpdate = setInterval( () => {
       let t = getRemainingTime(deadline);
-      el.innerHTML = `<span style="color: green;"> ${t.remainDays}d:${t.remainHours}h:${t.remainMinutes}m:${t.remainSeconds}s </span>`;
+      el.innerHTML = `<span style="color: green;"> ${t.remainDays}д  ${t.remainHours}х  ${t.remainMinutes}м ${t.remainSeconds}с </span>`;
   
       if(t.remainTime <= 1) {
         clearInterval(timerUpdate);
