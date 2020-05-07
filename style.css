@@ -1,0 +1,18 @@
+html,body{
+    background: #111111;
+}
+
+#clock, #days, #total {
+    color: white;
+  }
+
+.clocks{
+    height: 20rem;
+    background-color: #111111;
+}
+
+.col-lg-6, .col-lg-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
