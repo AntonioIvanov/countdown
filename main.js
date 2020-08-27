@@ -67,8 +67,8 @@ const getRemainingTime = deadline => {
 
 
   
-  countdownH('July 27 2020 00:1:00 GMT-1400', 'clock', '¡Ya termino!');
-  countdownD('July 27 2020 00:1:00 GMT-1400', 'days', '¡Ya termino!');
-  countdownT('July 27 2020 00:1:00 GMT-1400', 'total', '¡Ya termino!');
+  countdownH('Dec 31 2020 00:1:00 GMT-1400', 'clock', '¡Ya termino!');
+  countdownD('Dec 31 2020 00:1:00 GMT-1400', 'days', '¡Ya termino!');
+  countdownT('Dec 31 2020 00:1:00 GMT-1400', 'total', '¡Ya termino!');
 
   
