@@ -63,12 +63,24 @@ const getRemainingTime = deadline => {
   
     }, 1000)
   };
+  
+ select day in days 
+ select month in months 
+ select hour in hours
+  
 
+
+
+const months = ["Jan", "feb"...]
+const days = [1...31]
+const hours = [12:00.....]
+
+let userclock 
 
 
   
-  countdownH('July 27 2020 00:1:00 GMT-1400', 'clock', '¡Ya termino!');
-  countdownD('July 27 2020 00:1:00 GMT-1400', 'days', '¡Ya termino!');
-  countdownT('July 27 2020 00:1:00 GMT-1400', 'total', '¡Ya termino!');
+  countdownH('March 1 2021 00:1:00 GMT-1400', 'clock', '¡Ya termino!');
+  countdownD('March 1 2021 00:1:00 GMT-1400', 'days', '¡Ya termino!');
+  countdownT('March 1 2021 00:1:00 GMT-1400', 'total', '¡Ya termino!');
 
   
